@@ -3,7 +3,8 @@ function tournamentWinner(competitions, results) {
 	  //results[i] = ([1] === homeTeam wins ) || ([0] === awayteam wins)
 
 	//catalog results of tourney by 'team name'
-	//calculate how many wins each team has
+	// calculate how many wins each team has
+
 	let catalog = {};
 	let currentWinner = '';
 	for(let i = 0; i < competitions.length; i++){
